@@ -1,0 +1,62 @@
+body{
+  font-family: arial, helvetica,sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+main{
+  color: black;
+}
+header{
+  text-align: center;
+}
+  #map{
+    float: left;
+    margin-left: 100px;
+    }
+  .map-legend-container{
+    float: left;
+
+    margin-left: 10px;
+    width: 400px;
+    height: 800px;
+  }
+  #zoom-level{
+    height: 50px;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+
+  }
+.map-legend{
+  margin-left: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+
+}
+ #map-legend-1{
+  top: 0;
+  height: 150px;
+  margin-top: 20px;
+  width: 350px;
+  display: block;
+
+ }
+
+ #legend{
+  height: 400px;
+  margin-top: 10px;
+  width: 300px;
+
+  padding-top: 5px;
+ }
+ .legend-key {
+
+  display: inline-block;
+  border-radius: 20%;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
